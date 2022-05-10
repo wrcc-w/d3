@@ -1,0 +1,8 @@
+<div class="menu-item">
+    <a class="menu-link {{ Request::is('$ROUTE_PREFIX$$MODEL_NAME_PLURAL_CAMEL$*') ? 'active' : '' }}" href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}">
+        <span class="menu-icon">
+            <i class="bi bi-house fs-3"></i>
+        </span>
+        <span class="menu-title">@lang('models/$MODEL_NAME_PLURAL_CAMEL$.plural')</span>
+    </a>
+</div>

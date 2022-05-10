@@ -1,0 +1,10 @@
+<table class="table align-middle table-row-dashed fs-6 gy-5" id="$MODEL_NAME_PLURAL_CAMEL$Table">
+    <thead>
+    <tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0">
+         $FIELD_HEADERS$
+        <th class="text-end min-w-100px">Action</th>
+    </tr>
+    </thead>
+    <tbody class="text-gray-600 fw-bold">
+    </tbody>
+</table>

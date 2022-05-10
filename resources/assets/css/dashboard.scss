@@ -1,0 +1,25 @@
+
+canvas#payment_overview {
+    max-width: 377px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+canvas#invoice_overview {
+    max-width: 377px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+#invoice-overview-container {
+    min-height: 380px;
+}
+
+#payment-overview-container {
+    min-height: 380px;
+}
+
+.date-picker-space {
+    width: 220px;
+}

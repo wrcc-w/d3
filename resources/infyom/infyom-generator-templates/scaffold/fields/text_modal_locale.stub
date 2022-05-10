@@ -1,0 +1,5 @@
+<div class="fv-row mb-7 fv-plugins-icon-container">
+    {{ Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:', ['class' => 'required fw-bold fs-6 mb-2']) }}
+    {{ Form::text('$FIELD_NAME$', null, ['class' => 'form-control form-control-solid mb-3 mb-lg-0', 'placeholder' => '$FIELD_NAME_TITLE$', 'required']) }}
+    <div class="fv-plugins-message-container invalid-feedback"></div>
+</div>

@@ -1,0 +1,49 @@
+{
+    "currencies": [
+        {
+            "name": "Euro",
+            "icon": "€",
+            "code": "EUR"
+        },
+        {
+            "name": "Australian Dollar",
+            "icon": "$",
+            "code": "AUD"
+        },
+        {
+            "name": "Indian Rupee",
+            "icon": "₹",
+            "code": "INR"
+        },
+        {
+            "name": "US Dollar",
+            "icon": "$",
+            "code": "USD"
+        },
+        {
+            "name": "Japanese Yen",
+            "icon": "¥",
+            "code": "JPY"
+        },
+        {
+            "name": "British Pound Sterling",
+            "icon": "£",
+            "code": "GBP"
+        },
+        {
+            "name": "Canadian Dollar",
+            "icon": "$",
+            "code": "CAD"
+        },
+        {
+            "name": "Kenyan Shilling",
+            "icon": "Ksh",
+            "code": "KES"
+        },
+        {
+            "name": "Swiss Franc",
+            "icon": "CHF",
+            "code": "CHF"
+        }
+    ]
+}

@@ -1,0 +1,257 @@
+//dark mode css
+body.dark-mode {
+    .form-select.form-select-solid {
+        background-color: #1b1b29;
+    }
+
+    .select2-container--bootstrap5.select2-container--focus .form-select:not(.form-select-solid):not(.form-select-transparent), .select2-container--bootstrap5.select2-container--open .form-select:not(.form-select-solid):not(.form-select-transparent) {
+        border-color: #474761;
+    }
+
+    .select2-container--bootstrap5 .select2-dropdown .select2-search .select2-search__field {
+        background-color: #1e1e2d;
+        padding: 0.55rem 0.75rem;
+        color: #92929f;
+        font-size: .925rem;
+        border: 1px solid #323248;
+        border-radius: 0.475rem;
+        outline: 0 !important;
+    }
+
+    .select2-container--bootstrap5 .select2-dropdown .select2-results__option.select2-results__option--highlighted {
+        background-color: #212e48;
+        color: #3699ff;
+    }
+
+    .select2-container--bootstrap5 .select2-dropdown {
+        background-color: #1e1e2d;
+        box-shadow: 0 0 30px rgb(0 0 0 / 30%);
+    }
+
+    div.dataTables_wrapper div.dataTables_processing {
+        background-color: #1b1b29;
+    }
+
+    .swal2-popup {
+        background-color: #1e1e2d;
+        border-radius: 0.475rem;
+        padding: 2rem;
+    }
+
+    .swal2-popup .swal2-title {
+        color: aliceblue;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .text-inverse-dark {
+        color: #FFFFFF !important;
+    }
+
+    .bg-orangered {
+        background: orangered;
+    }
+
+    .select2-container--bootstrap5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        background-color: #323248;
+    }
+
+    .daterangepicker .ranges ul {
+        background-color: #1e1e2d;
+        padding: 1rem 0;
+        width: 175px;
+    }
+
+    .daterangepicker .ranges li:hover {
+        background-color: #212e48;
+        color: #3699ff;
+        transition: color .2s ease, background-color .2s ease;
+    }
+
+    .daterangepicker .ranges {
+        background-color: #1e1e2d;
+        border-top-left-radius: 0.475rem;
+    }
+
+    .daterangepicker {
+        background-color: #1e1e2d;
+        border: 0;
+        border-radius: 0.475rem;
+        box-shadow: 0 0 50px 0 rgb(82 63 105 / 10%);
+        font-family: Poppins, Helvetica, "sans-serif";
+        margin: 0;
+        padding: 0;
+        width: auto;
+        z-index: 1000;
+    }
+
+    .daterangepicker .calendar-table table {
+        width: 100%;
+        margin: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        background-color: #1e1e2d;
+    }
+
+    .daterangepicker .drp-buttons {
+        border-top: 1px solid #1e1e2d;
+        padding: 1rem 1.75rem;
+    }
+
+    .daterangepicker.show-ranges.show-calendar .ranges {
+        border-right: 1px solid #1e1e2d;
+    }
+
+    .daterangepicker .drp-calendar.left .calendar-table {
+        background: #1e1e2d;
+        padding-right: 8px;
+    }
+
+    .daterangepicker .drp-calendar td.in-range.available:not(.active):not(.off):not(.today), .daterangepicker .drp-calendar td:hover {
+        background-color: #213f7a;
+        color: #1569bf;
+    }
+
+    .daterangepicker .drp-calendar td.today, .daterangepicker .drp-calendar td.today.active {
+        background: #212e48 !important;
+        border-radius: 0.475rem;
+        color: #2383b9 !important;
+    }
+
+    .btn-check:active + .daterangepicker .drp-buttons .cancelBtn, .btn-check:checked + .daterangepicker .drp-buttons .cancelBtn, .daterangepicker .drp-buttons .cancelBtn.active, .daterangepicker .drp-buttons .cancelBtn.show, .daterangepicker .drp-buttons .cancelBtn:active:not(.btn-active), .daterangepicker .drp-buttons .cancelBtn:focus:not(.btn-active), .daterangepicker .drp-buttons .cancelBtn:hover:not(.btn-active), .show > .daterangepicker .drp-buttons .cancelBtn {
+        color: #cdcdde;
+        border-color: #474761;
+        background-color: #474761 !important;
+    }
+
+    .daterangepicker .drp-buttons .cancelBtn {
+        color: #cdcdde;
+        border-color: #323248;
+        background-color: #323248;
+    }
+
+    .daterangepicker select.ampmselect, .daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.monthselect, .daterangepicker select.yearselect {
+        background: #1e1e2d;
+        border-color: transparent;
+        border-radius: 0.475rem;
+        color: white;
+        font-weight: 500;
+        outline: 0 !important;
+        padding-bottom: 0.35rem;
+        padding-top: 0.35rem;
+    }
+
+    .flatpickr-innerContainer {
+        display: block;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: #1e1e2c;
+    }
+
+    .flatpickr-months {
+        padding: 0.5rem 1rem 0;
+        background-color: #1e1e2c;
+    }
+
+    .flatpickr-current-month .flatpickr-monthDropdown-months {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background-color: #1e1e2c;
+        border: 0 !important;
+        border-radius: 0.475rem;
+        color: #5e6278;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-right: 0.5rem;
+        outline: none !important;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .flatpickr-current-month .flatpickr-monthDropdown-months:hover {
+        background: #1b1b29;
+    }
+
+    .flatpickr-months .flatpickr-next-month:hover, .flatpickr-months .flatpickr-prev-month:hover {
+        background: #1b1b29;
+    }
+
+    .iti__country-list {
+        position: absolute;
+        z-index: 2;
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        margin: 0 0 0 -1px;
+        box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+        background-color: #1b1b29;
+        border: 1px solid #151520;
+        white-space: nowrap;
+        max-height: 200px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .iti__country.iti__highlight {
+        background-color: #212e48;
+        color: #3699ff;
+    }
+
+    .iti__flag-box, .iti__country-name {
+        margin-right: 6px;
+        color: #999;
+    }
+
+    .page-item.next:not(:hover):not(:focus):not(.disabled) .page-link, .page-item.previous:not(:hover):not(:focus):not(.disabled) .page-link {
+        color: #FFFFFF;
+        background-color: #151521;
+    }
+
+    .page-link:hover {
+        z-index: 2;
+        color: #3699FF;
+        text-decoration: none;
+        background-color: #2B2B40;
+        border-color: transparent;
+    }
+
+    .dropdown-menu a {
+        font-size: 13px;
+        color: white;
+    }
+
+    .dropdown-item:hover, .dropdown-item:focus {
+        color: #3699FF;
+        text-decoration: none;
+        background-color: #2B2B40;
+    }
+
+    .flatpickr-day.inRange, .flatpickr-day.nextMonthDay.inRange, .flatpickr-day.nextMonthDay.today.inRange, .flatpickr-day.nextMonthDay:focus, .flatpickr-day.nextMonthDay:hover, .flatpickr-day.prevMonthDay.inRange, .flatpickr-day.prevMonthDay.today.inRange, .flatpickr-day.prevMonthDay:focus, .flatpickr-day.prevMonthDay:hover, .flatpickr-day.today.inRange, .flatpickr-day:focus, .flatpickr-day:hover {
+        background: #1b1b29;
+        border-color: transparent;
+        color: #009ef7;
+        cursor: pointer;
+        outline: 0;
+    }
+
+    .flatpickr-day.today {
+        background: #212e48 !important;
+        color: #3699ff !important;
+        border-radius: 0.475rem;
+    }
+
+    .swal2-popup .swal2-content, .swal2-popup .swal2-html-container {
+        color: #7e8299;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-top: 1.5rem;
+    }
+}

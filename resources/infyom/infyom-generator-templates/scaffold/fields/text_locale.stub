@@ -1,0 +1,7 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="col-lg-6">
+    <div class="mb-5">
+        {{ Form::label('$FIELD_NAME$', __('models/$MODEL_NAME_PLURAL_CAMEL$.fields.$FIELD_NAME$').':', ['class' => 'form-label fs-6 fw-bolder text-gray-700 mb-3']) }}<span class="text-danger">*</span>
+        {{ Form::text('$FIELD_NAME$', null, ['class' => 'form-control form-control-solid', 'placeholder' => '$FIELD_NAME_TITLE$', 'tabindex' => 1, 'required']) }}
+    </div>
+</div>

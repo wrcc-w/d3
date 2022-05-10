@@ -1,0 +1,8 @@
+<div class="col-lg-6">
+    <div class="mb-5">
+        <label class="form-check form-check-inline form-check-solid me-5">
+            <input class="form-check-input" name="$FIELD_NAME$" type="checkbox" value="$CHECKBOX_VALUE$">
+            <span class="fw-bold ps-2 fs-6">__('models/$MODEL_NAME_PLURAL_CAMEL$.fields.$FIELD_NAME$').':')</span>
+        </label>
+    </div>
+</div>

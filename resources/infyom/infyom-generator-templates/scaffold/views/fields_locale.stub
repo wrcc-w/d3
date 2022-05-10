@@ -1,0 +1,9 @@
+<div class="row gx-10 mb-5">
+    $FIELDS$
+
+    <div class="d-flex">
+            <button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">{{ __('crud.save') }}</button>&nbsp;&nbsp;&nbsp;
+            <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}" type="reset" class="btn btn-light btn-active-light-primary me-2">@lang('crud.cancel')</a>
+    </div>
+</div>
+

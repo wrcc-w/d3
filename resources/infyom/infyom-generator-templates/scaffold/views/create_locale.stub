@@ -1,0 +1,43 @@
+@extends('layouts.app')
+@section('title')
+    @lang('crud.add_new') @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
+@endsection
+@section('sub_title')
+    @lang('crud.add_new') @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
+@endsection
+@section('create_edit')
+    @lang('crud.add_new') @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
+@endsection
+
+@section('content')
+        <div class="post d-flex flex-column-fluid" id="kt_post">
+            <div id="kt_content_container" class="container">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="flex-lg-row-fluid mb-10 mb-lg-0 me-lg-7 me-xl-10">
+                        <div class="row">
+                            <div class="col-12">
+                                @include('layouts.errors')
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class=" container card-header cursor-pointer">
+                                <div class="card-title m-0">
+                                    <h3 class="fw-bolder m-0">@lang('crud.add_new') @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')</h3>
+                                </div>
+                                <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}" class="btn btn-primary align-self-center">Back</a>
+                            </div>
+                            <div class="card-body p-12">
+                                {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store'$FILES$]) !!}
+                                <div class="card-body p-9">
+                                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
+                                {{ Form::close() }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+@endsection
+
+

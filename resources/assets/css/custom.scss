@@ -1,0 +1,225 @@
+#overlay-screen-lock {
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.justify-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+
+.p-r-23{
+    padding-right: 23px!important;
+}
+
+.m-r-35 {
+    margin-right: 35px;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-8 {
+    width: 8%;
+}
+
+.w-12 {
+    width: 12%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.theme-btn-color {
+    color: #009ef7;
+}
+
+.hide {
+    display: none;
+}
+
+.plan-border-bottom {
+    border-bottom: 1px dashed #eff2f5;
+}
+
+#error-msg, .profile-error-msg{
+    color: red;
+    margin-left: 2px;
+    font-family: sans-serif, Arial;
+}
+
+#valid-msg, .profile-valid-msg {
+    color: green;
+    margin-left: 2px;
+    font-family: sans-serif, Arial;
+}
+.iti {
+    display: block !important;
+    width: 100%;
+}
+//#kt_content {
+//    .content {
+//        height: calc(100vh - 165px);
+//
+//        @media (max-width: 991px) {
+//            height: calc(100vh - 100px);
+//        }
+//    }
+//}
+
+.btn-group-toggle {
+    margin: 10px;
+}
+
+.btn-group-toggle input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.btn-group-toggle label {
+    display: inline-block;
+    background-color: transparent;
+    padding: 8.150px 17.225px;
+    font-family: sans-serif, Arial;
+    font-size: 12px;
+    border: 1px solid #dee2e6!important;
+    border-radius: .475rem;
+}
+
+.btn-group-toggle label:hover {
+    background-color: transparent;
+}
+
+.btn-group-toggle input[type="radio"]:focus + label {
+    border-radius: 0.3rem;
+    background-color: #019aff;
+    border: 1px solid #019aff !important;
+}
+
+.btn-group-toggle input[type="radio"]:checked + label {
+    border-radius: 0.3rem;
+    background-color: #019aff;
+    border: 1px solid #019aff !important;
+    color: #fff;
+}
+
+.dataTables_wrapper .user-img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+a.dropdown-item {
+    padding: 10px 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.dropdown-menu a {
+    font-size: 13px;
+}
+
+a.dropdown-item {
+    padding: 10px 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.dropdown-menu a {
+    font-size: 13px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.tbAmount {
+    text-align: right;
+}
+
+.item-number {
+    vertical-align: middle;
+}
+
+.autocode-btn {
+    padding: 5px 20.5px !important;
+    border-radius: 0 0.475rem 0.475rem 0;
+}
+
+.list-style-none {
+    list-style: none !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.sidebar-font-size {
+    font-size: 14px !important;
+}
+
+.card-icon {
+    font-size: 25px;
+}
+
+.card-count {
+    font-size: 20px !important;
+}
+.sidebar-search-box {
+    &.show {
+        display: none;
+    }
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.bg-orangered {
+    background: orangered;
+}
+
+.select2-search__field::placeholder {
+    color: #5d6178 !important;
+    font-family: Poppins, Helvetica, "sans-serif";
+}
+
+.select2-container--bootstrap5 .select2-selection--single.form-select-solid .select2-selection__placeholder {
+    color: #5e6278;
+}
+
+.text-enquiry-black{
+    color:black!important;
+}

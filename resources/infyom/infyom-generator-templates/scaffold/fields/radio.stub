@@ -1,0 +1,9 @@
+<div class="col-lg-6">
+    <div class="mb-5">
+        <label class="form-label fs-6 fw-bolder text-gray-700 mb-3">$FIELD_NAME$:<span class="text-danger">*</span></label>
+        <span class="form-check form-check-custom form-check-solid is-valid">
+            <label class="form-label fs-6 fw-bolder text-gray-700 mr-3">$LABEL$</label>&nbsp;&nbsp;
+            <input class="form-check-input" tabindex="10" type="radio" name="gender" value="$VALUE$">
+        </span>
+    </div>
+</div>

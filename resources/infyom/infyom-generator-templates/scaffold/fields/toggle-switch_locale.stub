@@ -1,0 +1,12 @@
+<div class="col-lg-6">
+    <div class="mb-5">
+        <label class="form-label fs-6 fw-bolder text-gray-700 mb-3">__('models/$MODEL_NAME_PLURAL_CAMEL$.fields.$FIELD_NAME$').':')</label>
+        <div class="col-lg-8 d-flex align-items-center">
+            <div class="form-check form-check-solid form-switch fv-row">
+                <input tabindex="12" name="$FIELD_NAME$" value="0" class="form-check-input w-45px h-30px" type="checkbox"
+                       id="$FIELD_NAME$" checked="checked">
+                <label class="form-check-label" for="$FIELD_NAME$"></label>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+'use strict';
+
+let tableName = '#$MODEL_NAME_PLURAL_CAMEL$Table';
+$(tableName).DataTable({
+    scrollX: true,
+    deferRender: true,
+    scroller: true,
+    processing: true,
+    serverSide: true,
+    'order': [[0, 'asc']],
+    ajax: {
+        url: route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index'),
+    },
+    columnDefs: [
+        {
+            'targets': [$ACTION_COLUMN_COUNT$],
+            'orderable': false,
+            'className': 'text-center',
+            'width': '8%',
+        },
+    ],
+    columns: [
+        $JQUERY_FIELDS$
+        {
+            data: function (row) {
+                let data = [
+                    {
+                        'id': row.id,
+                        'editUrl': route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.edit', row.id),
+                    },
+                ];
+
+                return prepareTemplateRender('#actionsTemplates',
+                    data);
+            },
+            name: 'id',
+        },
+    ],
+});
+
+$(document).on('click', '.delete-btn', function (event) {
+    let recordId = $(event.currentTarget).data('id');
+    deleteItem(route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.destroy', recordId), tableName, '$MODEL_NAME_HUMAN$');
+});

@@ -1,0 +1,166 @@
+.livewire-table .livewire-search-box .search-box {
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+    width: 250px !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6.175px !important;
+    font-size: 13px;
+}
+
+
+.livewire-table .livewire-pagination .pagination {
+    justify-content: flex-end;
+}
+
+
+.livewire-table .data-sorting {
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+}
+
+
+.livewire-table .text-show {
+    color: #5e6278 !important;
+    font-weight: 500;
+}
+
+
+.livewire-table .pagination-record {
+    color: #5e6278 !important;
+    font-weight: 500;
+}
+
+
+.livewire-table .livewire-search-box .search-box-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin-left: 1.5rem !important;
+}
+
+
+.livewire-table .livewire-search-box button.btn {
+    z-index: 10;
+    left: -50px;
+}
+
+
+.livewire-table .livewire-search-box button.btn svg {
+    stroke: #355690;
+    width: 1em !important;
+    height: 1em !important;
+}
+
+
+.livewire-table .livewire-search-box button.btn:hover {
+    background: unset;
+}
+
+
+.livewire-table .livewire-search-box .input-group {
+    width: auto;
+}
+
+
+.livewire-table .livewire-search-box .search-box {
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+    width: 250px !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6.175px !important;
+}
+
+
+.livewire-table .livewire-search-box .search-box:focus {
+    background-color: #eef3f7;
+    border-color: #eef3f7;
+    color: #5e6278;
+}
+
+
+.livewire-table table.table thead tr {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #eff2f5;
+}
+
+
+.livewire-table table.table thead tr th {
+    color: #b5b5c3 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+
+.livewire-table table.table tbody tr {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #eff2f5;
+}
+
+
+.livewire-table table.table tbody tr:nth-of-type(odd) {
+    --bs-table-accent-bg: white !important;
+}
+
+
+.livewire-table table.table tbody tr td {
+    padding: 16.25px 9.75px;
+    color: #7e8299;
+    font-weight: 500;
+    //line-height: 34px;
+    vertical-align: middle;
+}
+
+
+.livewire-table table.table tbody tr td:first-child {
+    padding-left: 0 !important;
+}
+
+.custom-center {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+    width: fit-content !important;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+}
+
+.livewire-table .user-img {
+    border-radius: 50%;
+    height: 35px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 35px;
+}
+
+.livewire-th-center {
+    & > div {
+        justify-content: center;
+    }
+}
+
+.text-md-dark {
+    color: #5e6278 !important;
+    font-weight: 500;
+}
+
+.data-select-sorting {
+    background-color: #f5f8fa !important;
+    border-color: #f5f8fa !important;
+    color: #5e6278 !important;
+    min-width: 73px;
+}
+
+.livewire-table ul.pagination {
+    justify-content: end !important;
+}

@@ -1,0 +1,109 @@
+body.dark-mode .form-select.form-select-solid {
+  background-color: #1b1b29;
+}
+body.dark-mode .select2-container--bootstrap5.select2-container--focus .form-select:not(.form-select-solid):not(.form-select-transparent), body.dark-mode .select2-container--bootstrap5.select2-container--open .form-select:not(.form-select-solid):not(.form-select-transparent) {
+  border-color: #474761;
+}
+body.dark-mode .select2-container--bootstrap5 .select2-selection--single {
+  align-items: center;
+  display: flex;
+  border: 0;
+}
+body.dark-mode .select2-container--bootstrap5 .select2-dropdown .select2-search .select2-search__field {
+  background-color: #1e1e2d;
+  padding: 0.55rem 0.75rem;
+  color: #92929f;
+  font-size: 0.925rem;
+  border: 1px solid #323248;
+  border-radius: 0.475rem;
+  outline: 0 !important;
+}
+body.dark-mode .select2-container--bootstrap5 .select2-dropdown .select2-results__option.select2-results__option--highlighted {
+  background-color: #212e48;
+  color: #3699ff;
+}
+body.dark-mode .select2-container--bootstrap5 .select2-dropdown {
+  background-color: #1e1e2d;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+body.dark-mode .select2-container--bootstrap5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background-color: #323248;
+}
+body.dark-mode .align-items-stretch {
+  background-color: #1e1e2c;
+  align-items: stretch !important;
+}
+body.dark-mode .menu-state-bg .menu-item.here > .menu-link, body.dark-mode .menu-state-bg .menu-item.show > .menu-link {
+  transition: color 0.2s ease, background-color 0.2s ease;
+  background-color: rgba(27, 27, 41, 0.8);
+}
+body.dark-mode .content {
+  background-color: #151520;
+  padding: 30px 0;
+}
+body.dark-mode .flex-row-fluid {
+  flex: 1 auto;
+  min-width: 0;
+  background-color: #151520;
+}
+body.dark-mode .editor {
+  background: white;
+  padding: 15px 0 35px;
+}
+body.dark-mode .card .card-body, body.dark-mode .card .card-footer {
+  background-color: #1E1E2D;
+  padding: 2rem 2.25rem;
+}
+body.dark-mode .col-xl-8 {
+  background: white;
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+body.dark-mode .footer {
+  background-color: #1E1E2D;
+}
+body.dark-mode .menu-active-bg .menu-item .menu-link.active, body.dark-mode .menu-hover-bg .menu-item.hover > .menu-link:not(.disabled):not(.active), body.dark-mode .menu-hover-bg .menu-item .menu-link:hover:not(.disabled):not(.active), body.dark-mode .menu-show-bg .menu-item.here > .menu-link, body.dark-mode .menu-show-bg .menu-item.show > .menu-link, body.dark-mode .menu-state-bg .menu-item.here > .menu-link, body.dark-mode .menu-state-bg .menu-item.hover > .menu-link:not(.disabled):not(.active), body.dark-mode .menu-state-bg .menu-item .menu-link.active, body.dark-mode .menu-state-bg .menu-item .menu-link:hover:not(.disabled):not(.active), body.dark-mode .menu-state-bg .menu-item.show > .menu-link {
+  background-color: #1E1E2D;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+body.dark-mode .overflow-auto {
+  background-color: #1E1E2D;
+  overflow: auto !important;
+}
+body.dark-mode .symbol .symbol-label {
+  align-items: center;
+  background-color: #151520 !important;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.475rem;
+  color: #7e8299;
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+}
+body.dark-mode .badge-light {
+  background-color: #151520;
+  color: #7e8299;
+}
+body.dark-mode .text-gray-800 {
+  color: #CDCDDE !important;
+}
+body.dark-mode .menu-sub-dropdown.menu.show, body.dark-mode .menu-sub-dropdown.show[data-popper-placement], body.dark-mode .show.menu-dropdown > .menu-sub-dropdown {
+  -webkit-animation: menu-sub-dropdown-animation-fade-in 0.3s ease 1, menu-sub-dropdown-animation-move-up 0.3s ease 1;
+  animation: menu-sub-dropdown-animation-fade-in 0.3s ease 1, menu-sub-dropdown-animation-move-up 0.3s ease 1;
+  display: flex;
+  background-color: #151520;
+}
+body.dark-mode .fw-bolder {
+  font-weight: 600 !important;
+  color: white !important;
+}
+body.dark-mode .separator {
+  display: block;
+  height: 0;
+  border-bottom: 1px solid #2B2B40;
+}

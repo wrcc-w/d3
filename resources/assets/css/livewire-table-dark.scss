@@ -1,0 +1,148 @@
+.livewire-table .livewire-search-box .search-box {
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+    width: 250px !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6.175px !important;
+}
+
+
+.livewire-table .livewire-pagination .pagination {
+    justify-content: flex-end;
+}
+
+
+.livewire-table .data-sorting {
+    background-color: #565674;
+    border-color: #565674;
+    color: #5e6278;
+}
+
+
+.livewire-table .text-show {
+    color: #5e6278 !important;
+    font-weight: 500;
+}
+
+
+.livewire-table .pagination-record {
+    //color: #5e6278 !important;
+    font-weight: 500;
+}
+
+
+.livewire-table .livewire-search-box .search-box-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin-left: 1.5rem !important;
+}
+
+
+.livewire-table .livewire-search-box button.btn {
+    z-index: 10;
+    left: -50px;
+}
+
+
+.livewire-table .livewire-search-box button.btn svg {
+    stroke: #355690;
+    width: 1em !important;
+    height: 1em !important;
+}
+
+
+.livewire-table .livewire-search-box button.btn:hover {
+    background: unset;
+}
+
+
+.livewire-table .livewire-search-box .input-group {
+    width: auto;
+}
+
+
+.livewire-table .livewire-search-box .search-box {
+    background-color: #1b1b29;
+    border-color: #1b1b29;
+    color: #92929F;
+    width: 250px !important;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6.175px !important;
+}
+
+
+.livewire-table .livewire-search-box .search-box:focus {
+    background-color: #171723;
+    border-color: #171723;
+    color: #92929F;
+    transition: color 0.2s ease, background-color 0.2s ease;
+
+
+}
+
+
+.livewire-table table.table thead tr {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(43, 43, 64);
+}
+
+
+.livewire-table table.table thead tr th {
+    color: rgb(86, 86, 116) !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.livewire-th-center {
+    & > div {
+        justify-content: center;
+    }
+}
+
+.livewire-table table.table tbody tr {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(43, 43, 64);
+
+
+}
+
+
+.livewire-table table.table tbody tr td {
+    padding: 16.25px 9.75px;
+    color: rgb(86, 86, 116) !important;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+
+.livewire-table table.table tbody tr td:first-child {
+    padding-left: 0 !important;
+}
+
+.livewire-table {
+    .user-img {
+        border-radius: 50%;
+        height: 35px;
+        object-fit: cover;
+        width: 35px;
+    }
+}
+
+.data-sorting {
+    background-color: #1b1b29 !important;
+    border-color: #565674;
+    color: #5e6278;
+}
+
+.livewire-table ul.pagination {
+    justify-content: end !important;
+}
+
